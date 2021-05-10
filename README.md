@@ -1,5 +1,4 @@
 # Connect_IIEST
-Click on { app-debug.apk --> View raw } to download the app.
 
 I'd made this one just to practice various components that I was learning every now and then. 
 
