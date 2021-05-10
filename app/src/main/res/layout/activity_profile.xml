@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="@drawable/tele">
+
+    <LinearLayout
+        android:id="@+id/topSection"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="60dp">
+            <ImageView
+                android:src="@drawable/ic_user"
+                android:id="@+id/userImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.cardview.widget.CardView>
+        <ImageView
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:id="@+id/plus"
+            android:elevation="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="-25dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/plus"/>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:padding="5dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="User Name:"
+                android:textColor="#292929"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter your name" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:textColor="#292929"
+                android:padding="5dp"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="About:"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/etStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="About" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/saveBtn"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVE"
+            android:padding="12dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/topSection"
+        android:padding="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/linear_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_shield_with_lock"
+            android:drawablePadding="15dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="Privacy Policy"
+            android:textColor="#454545"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableTint="@color/colorPrimary" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/insta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_instagram"
+            android:drawablePadding="15dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="Instagram"
+            android:textColor="#454545"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableTint="@color/colorPrimary" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_facebook"
+            android:drawablePadding="15dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="Facebook"
+            android:textColor="#454545"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableTint="@color/colorPrimary" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_group"
+            android:drawablePadding="15dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="About Us"
+            android:textColor="#454545"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableTint="@color/colorPrimary" />
+
+        <TextView
+            android:gravity="center_vertical"
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:drawableLeft="@drawable/ic_question"
+            android:drawablePadding="15dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="10dp"
+            android:text="Help"
+            android:textColor="#454545"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:drawableTint="@color/colorPrimary" />
+    </LinearLayout>
+
+</RelativeLayout>

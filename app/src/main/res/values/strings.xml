@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Connect IIEST</string>
+    <string name="facebook_app_id">743919052985727</string>
+    <string name="fb_login_protocol_scheme">fb743919052985727</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

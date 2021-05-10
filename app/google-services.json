@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "498100572515",
+    "project_id": "connect-iiest-new",
+    "storage_bucket": "connect-iiest-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498100572515:android:2eb13092bc8b7918f74356",
+        "android_client_info": {
+          "package_name": "com.example.connectiiest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498100572515-taih9nqf2s49eneotc7rm77t82h4oqv6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdZ4gVCA5O5j6nIKeZqrN7zNnrqTgCQ2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498100572515-taih9nqf2s49eneotc7rm77t82h4oqv6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
