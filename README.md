@@ -1,6 +1,6 @@
 # Connect_IIEST
 
-I'd made this one just to practice various components that I was learning every now and then. 
+I'd made this one to practice various components that I was learning every now and then. 
 
 Some main features of this app are : 
 
